@@ -71,8 +71,6 @@ while (user == id1 && pw == contraseña1) {
 
     localStorage.setItem("total", JSON.stringify(sum));
     localStorage.setItem("total2", JSON.stringify(total));
-    /*localStorage.setItem("acumulado", JSON.stringify(total));
-    acumulado=JSON.parse(localStorage.getItem("acumulado"));*/
 
     user= window.prompt("Ingrese IDe:")
     pw = window.prompt("Ingrese contraseñe: ")   
@@ -88,94 +86,3 @@ else{
     document.write("Datos incorrectos")
 }
 
-/*if (user1 == "billetesde5"){
-    billete=5
-
-} else if (user1 == "billetesde10)"{
-    billetes=10
-
-}
-else{
-    document.write("vuelva a cargar dinero")
-    billetes=0
-}*/
-/*else{
-    document.write("no tenemos este topping, lo siento ")
-    precio= 0
-}else if(topping == "kitkat"){
-    precio= 1500
-}
-/*
-switch (key) {
-    case value:
-        
-        break;
-
-    default:
-        break;
-}
-/*function Persona(nombre,apellido){
-
-	this.nombre = nombre;
-	this.apellido = apellido;
-	this.edad = 30;
-
-	this.imprimirPersona = function(){
-		return this.nombre + " " + this.apellido + "("+ this.edad +")";
-	}
-
-
-}
-
-
-var Juan = new Persona("Juan", "Mendoza");
-
-
-console.log( Juan.imprimirPersona() );
-let topping =window.prompt("¿que topping quieres?").toLocaleLowerCase();
-let precio = 0.00
-let helado = 1900
-let precioFinal = 0
-
-if (topping == "oreo"){
-    precio = 1000
-}else if(topping == "kitkat"){
-    precio= 1500
-}else if(topping =="brownie"){
-    precio= 750
-}else if(topping =="lacasitos"){
-    precio= 950
-}else if(topping =="fresa"){
-    precio= 8200
-}else{
-    document.write("no tenemos este topping, lo siento ")
-    precio= 0
-}
-
-precioFinal = helado  + precio; 
-document.write("el helado cuesta " + precioFinal)
-
-
-
------------------------------------------------------------------------------
-
-pregunta = window.prompt(" que fruta quieres traducir ")
-
-switch (pregunta) {
-    case " manzana":
-        document.write(" poma ")
-        break;
-        case " pera ":
-        document.write(" pera dulce ")
-        break;
-        case " naranja ":
-        document.write(" toronja ")
-        break;
-        case " cereza ":
-        document.write(" cherry ")
-        break;
-
-    default:
-        document.write(" lo siento no tengo esta traduccion ")
-        break;
-}*/
